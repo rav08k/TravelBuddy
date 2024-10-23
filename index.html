@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Travel Budddy</title>
+		<link rel="stylesheet" href="style.css" />
+		<link
+			rel="stylesheet"
+			href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+		/>
+	</head>
+	<body>
+		<nav class="navigation">
+			<div class="container">
+				<div class="logo_wrapper"><a href="#"><img src="./assets/logo.png" alt="" /></a></div>
+				<div class="menu_wrapper">
+					<ul class="menu" id="menu">
+						<li><a href="#">Home</a></li>
+						<li><a href="#Book_Now">Book</a></li>
+						<li class="pkg_menu_wrap" id="pkg_menu_wrap">
+							<a href="#pkgs">Packages</a>
+							<ul class="pkg_menu" id="pkg_menu">
+								<li><a href="#United States">United States</a></li>
+								<li><a href="#India">India</a></li>
+								<li><a href="#France">France</a></li>
+								<li><a href="#Germany">Germany</a></li>
+							</ul>
+						</li>
+						<li><a href="#Services">Services</a></li>
+						<li><a href="#">Gallery</a></li>
+						<button class="menu_btn def_btn">LogIn</button>
+						<button class="menu_btn def_btn">Register</button>
+					</ul>
+					<div class="hamburger" id="hamburger"></div>
+				</div>
+			</div>
+		</nav>
+
+		<section class="hero_section">
+			<div class="container">
+				<h1 class="hero_heading">Welcome to <span>Travel Budddy</span></h1>
+				<h1 class="hero_big_text">
+					Visit <span id="hero_big_text">United States</span>
+				</h1>
+				<a href="#Book_Now"><button class="def_btn hero_btn">Book Now</button></a>
+			</div>
+		</section>
+		<section class="form_section" id="Book_Now">
+			<div class="container">
+				<div class="fs_img_wrap">
+					<img src="assets/travel.png" alt="" class="fs_img" />
+				</div>
+				<div class="fs_form_wrap">
+					<form action="" id="userForm" onsubmit="userFormSubmit(event)">
+						<span>
+							<label for="dest">Where To:</label>
+							<select name="dest" id="dest" required>
+								<option value="" disabled selected>select place</option>
+								<!-- <option value="India">India</option>
+								<option value="United States">United States</option>
+								<option value="Japan">Japan</option>
+								<option value="France">France</option> -->
+							</select>
+						</span>
+						<span>
+							<label for="no_of_people">How Many Person:</label>
+							<input
+								type="number"
+								name="no_of_people"
+								id="no_of_people"
+								required
+							/>
+						</span>
+						<span>
+							<label for="start_date">Start Date:</label>
+							<input type="date" name="start_date" id="start_date" required />
+						</span>
+						<span>
+							<label for="end_date">End Date:</label>
+							<input type="date" name="end_date" id="end_date" required />
+						</span>
+						<span>
+							<label for="desc">Description:</label>
+							<textarea
+								name="desc"
+								id="desc"
+								minlength="50"
+								maxlength="500"
+								required
+							></textarea>
+						</span>
+							<button type="submit" class="def_btn" id="submit">Book Now</button>
+					</form>
+				</div>
+			</div>
+		</section>
+		<section class="pkgs" id="pkgs">
+			<div class="container">
+				<h1 class="title">Choose Your Dream Place</h1>
+				<div class="pkg_box_wrap" id="pkg_box_wrap">
+					
+				</div>
+			</div>
+		</section>
+		<section class="services-section" id="Services">
+			<div class="container">
+				<h2 class="title">Our Services</h2>
+				<div class="service-cards">
+					<div class="service-card">
+						<i class="fa fa-hotel"></i>
+						<h3>Affordable Hotels</h3>
+						<p>Find budget-friendly accommodations to suit your needs.</p>
+					</div>
+					<div class="service-card">
+						<i class="fa fa-cutlery"></i>
+						<h3>Food & Drinks</h3>
+						<p>Discover local cuisine and enjoy delicious meals.</p>
+					</div>
+					<div class="service-card">
+						<i class="fa fa-shield"></i>
+						<h3>Safety Guide</h3>
+						<p>Get tips on staying safe while traveling.</p>
+					</div>
+					<div class="service-card">
+						<i class="fa fa-suitcase"></i>
+						<h3>Luggage Assistance</h3>
+						<p>Let us handle your baggage, so you can focus on exploring.</p>
+					</div>
+					<div class="service-card">
+						<i class="fa fa-map"></i>
+						<h3>Personalized Itinerary</h3>
+						<p>Create a custom travel plan tailored to your interests.</p>
+					</div>
+					<div class="service-card">
+						<i class="fa fa-language"></i>
+						<h3>Language Translation</h3>
+						<p>Communicate effectively with locals and fellow travelers.</p>
+					</div>
+				</div>
+			</div>
+		</section>
+		<div id="successModal" class="modal_bg_overlay">
+			<div class="modal-content" id="modal_box">
+				<img src="assets/check.png" alt="">
+				<span class="close" id="modal_close">&times;</span>
+				<h1>!!Hurray!!</h1>
+				<h1>Your booking is successful!</h1>
+			</div>
+		</div>
+		<script src="script.js"></script>
+	</body>
+</html>

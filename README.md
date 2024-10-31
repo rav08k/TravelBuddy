@@ -1,6 +1,4 @@
-
-##visit my site here : https://rav08k.github.io/TravelBuddy/
-
+visit my site here : https://rav08k.github.io/TravelBuddy/
 
 ## Getting Started with Create React App
 

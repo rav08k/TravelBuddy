@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/TravelBuddy/static/css/main.f0d1729c.css",
-    "main.js": "/TravelBuddy/static/js/main.e1b6bd37.js",
+    "main.js": "/TravelBuddy/static/js/main.3ee1d80e.js",
     "static/media/aus.jpg": "/TravelBuddy/static/media/aus.fa0092b3d7cbdc824a23.jpg",
     "static/media/aboutUS.jpg": "/TravelBuddy/static/media/aboutUS.3ca2e183edc8201f466e.jpg",
     "static/media/egypt.jpg": "/TravelBuddy/static/media/egypt.2588c37f8d85fce320c5.jpg",
@@ -30,10 +30,10 @@
     "static/media/favicon.ico": "/TravelBuddy/static/media/favicon.f7c2b4db513fec9897e7.ico",
     "index.html": "/TravelBuddy/index.html",
     "main.f0d1729c.css.map": "/TravelBuddy/static/css/main.f0d1729c.css.map",
-    "main.e1b6bd37.js.map": "/TravelBuddy/static/js/main.e1b6bd37.js.map"
+    "main.3ee1d80e.js.map": "/TravelBuddy/static/js/main.3ee1d80e.js.map"
   },
   "entrypoints": [
     "static/css/main.f0d1729c.css",
-    "static/js/main.e1b6bd37.js"
+    "static/js/main.3ee1d80e.js"
   ]
 }

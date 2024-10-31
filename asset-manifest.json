@@ -1,0 +1,39 @@
+{
+  "files": {
+    "main.css": "/TravelBuddy/static/css/main.f0d1729c.css",
+    "main.js": "/TravelBuddy/static/js/main.e1b6bd37.js",
+    "static/media/aus.jpg": "/TravelBuddy/static/media/aus.fa0092b3d7cbdc824a23.jpg",
+    "static/media/aboutUS.jpg": "/TravelBuddy/static/media/aboutUS.3ca2e183edc8201f466e.jpg",
+    "static/media/egypt.jpg": "/TravelBuddy/static/media/egypt.2588c37f8d85fce320c5.jpg",
+    "static/media/travel.png": "/TravelBuddy/static/media/travel.f65bc16d588adfb527b0.png",
+    "static/media/japan.jpg": "/TravelBuddy/static/media/japan.f63ff022a2b76b570e5d.jpg",
+    "static/media/gl_11.jpg": "/TravelBuddy/static/media/gl_11.ab4ca282b4765d915a75.jpg",
+    "static/media/brazil.jpg": "/TravelBuddy/static/media/brazil.006960ca6152668cf0c7.jpg",
+    "static/media/germany.jpg": "/TravelBuddy/static/media/germany.eab3ef56c0f0a5390b7d.jpg",
+    "static/media/gl_5.jpg": "/TravelBuddy/static/media/gl_5.a2297907df72b6062512.jpg",
+    "static/media/gl_2.jpg": "/TravelBuddy/static/media/gl_2.0cef9b3485e88bbb3790.jpg",
+    "static/media/france.jpg": "/TravelBuddy/static/media/france.3966676fb4e3eb960555.jpg",
+    "static/media/gl_9.jpg": "/TravelBuddy/static/media/gl_9.be7474e33956da8470e7.jpg",
+    "static/media/gl_10.jpg": "/TravelBuddy/static/media/gl_10.dc46ad84bac88db9a2ac.jpg",
+    "static/media/gl_1.jpg": "/TravelBuddy/static/media/gl_1.4fc736d206c3a1d1a6b5.jpg",
+    "static/media/gl_8.jpg": "/TravelBuddy/static/media/gl_8.b83442fc531f6ade0b5b.jpg",
+    "static/media/gl_13.jpg": "/TravelBuddy/static/media/gl_13.d531b32ae25578ea0485.jpg",
+    "static/media/gl_7.jpg": "/TravelBuddy/static/media/gl_7.4a463c4eb3eee914412c.jpg",
+    "static/media/us.jpg": "/TravelBuddy/static/media/us.f9b5e0a8806476cfc620.jpg",
+    "static/media/gl_4.jpg": "/TravelBuddy/static/media/gl_4.fcd0c1b889f81a805afc.jpg",
+    "static/media/india.jpg": "/TravelBuddy/static/media/india.6155d7631069889b5613.jpg",
+    "static/media/gl_6.jpg": "/TravelBuddy/static/media/gl_6.b3bd7aeef0f8b4c95a1c.jpg",
+    "static/media/italy.jpg": "/TravelBuddy/static/media/italy.1c7839a8e08c8cf72426.jpg",
+    "static/media/gl_3.jpg": "/TravelBuddy/static/media/gl_3.429583ff6c7261bd10a5.jpg",
+    "static/media/logo.png": "/TravelBuddy/static/media/logo.d8d8b0c007dda839e576.png",
+    "static/media/check.png": "/TravelBuddy/static/media/check.d30e1b25c23f80206ba2.png",
+    "static/media/favicon.ico": "/TravelBuddy/static/media/favicon.f7c2b4db513fec9897e7.ico",
+    "index.html": "/TravelBuddy/index.html",
+    "main.f0d1729c.css.map": "/TravelBuddy/static/css/main.f0d1729c.css.map",
+    "main.e1b6bd37.js.map": "/TravelBuddy/static/js/main.e1b6bd37.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.f0d1729c.css",
+    "static/js/main.e1b6bd37.js"
+  ]
+}
